@@ -1,0 +1,18 @@
+<?php
+
+namespace App\Models\avtoas;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class MailStop extends Model
+{
+    use HasFactory;
+
+    /**
+     * Соединение с БД, которое должна использовать модель.
+     *
+     * @var string
+     */
+    protected $connection = 'datas';
+}
